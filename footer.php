@@ -29,5 +29,6 @@
 </footer><!-- #footer -->
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 </body>
 </html>
