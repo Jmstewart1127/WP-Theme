@@ -2,8 +2,8 @@
 <section id="intro">
 
     <div class="intro-text">
-        <h2>Welcome to Avilon</h2>
-        <p>We are team of talanted designers making websites with Bootstrap</p>
+        <h2>CSA Construction</h2>
+        <p>Repair Remodel Reimagine</p>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
 
@@ -182,20 +182,7 @@
     <!--==========================
       Call To Action Section
     ============================-->
-    <section id="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 text-center text-lg-left">
-                    <h3 class="cta-title">Call To Action</h3>
-                    <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Call To Action</a>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- #call-to-action -->
+    <?php do_action( 'get_employment_form' ); ?>
 
     <!--==========================
       More Features Section
@@ -310,150 +297,6 @@
         </div>
     </section><!-- #pricing -->
 
-
-    <!--==========================
-      Frequently Asked Questions Section
-    ============================-->
-    <section id="faq">
-        <div class="container">
-
-            <div class="section-header">
-                <h3 class="section-title">Frequently Asked Questions</h3>
-                <span class="section-divider"></span>
-                <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-            </div>
-
-            <ul id="faq-list" class="wow fadeInUp">
-                <li>
-                    <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="ion-android-remove"></i></a>
-                    <div id="faq1" class="collapse" data-parent="#faq-list">
-                        <p>
-                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-android-remove"></i></a>
-                    <div id="faq2" class="collapse" data-parent="#faq-list">
-                        <p>
-                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-android-remove"></i></a>
-                    <div id="faq3" class="collapse" data-parent="#faq-list">
-                        <p>
-                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-android-remove"></i></a>
-                    <div id="faq4" class="collapse" data-parent="#faq-list">
-                        <p>
-                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-android-remove"></i></a>
-                    <div id="faq5" class="collapse" data-parent="#faq-list">
-                        <p>
-                            Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-android-remove"></i></a>
-                    <div id="faq6" class="collapse" data-parent="#faq-list">
-                        <p>
-                            Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-                        </p>
-                    </div>
-                </li>
-
-            </ul>
-
-        </div>
-    </section><!-- #faq -->
-
-    <!--==========================
-      Our Team Section
-    ============================-->
-    <section id="team" class="section-bg">
-        <div class="container">
-            <div class="section-header">
-                <h3 class="section-title">Our Team</h3>
-                <span class="section-divider"></span>
-                <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-            </div>
-            <div class="row wow fadeInUp">
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/team/team-1.jpg" alt=""></div>
-                        <h4>Walter White</h4>
-                        <span>Chief Executive Officer</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/team/team-2.jpg" alt=""></div>
-                        <h4>Sarah Jhinson</h4>
-                        <span>Product Manager</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/team/team-3.jpg" alt=""></div>
-                        <h4>William Anderson</h4>
-                        <span>CTO</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <div class="pic"><img src="img/team/team-4.jpg" alt=""></div>
-                        <h4>Amanda Jepson</h4>
-                        <span>Accountant</span>
-                        <div class="social">
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- #team -->
-
     <!--==========================
       Gallery Section
     ============================-->
@@ -462,55 +305,55 @@
             <div class="section-header">
                 <h3 class="section-title">Gallery</h3>
                 <span class="section-divider"></span>
-                <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                <p class="section-description">A gallery of our work</p>
             </div>
 
             <div class="row no-gutters">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item wow fadeInUp">
-                        <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
-                            <img src="img/gallery/gallery-1.jpg" alt="">
+                        <a href="http://127.0.0.1/csa/wp-content/uploads/2018/05/image3-1.jpeg" class="gallery-popup">
+                            <img src="http://127.0.0.1/csa/wp-content/uploads/2018/05/image3-1.jpeg" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item wow fadeInUp">
-                        <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
-                            <img src="img/gallery/gallery-2.jpg" alt="">
+                        <a href="http://127.0.0.1/csa/wp-content/uploads/2018/05/image2-2.jpeg" class="gallery-popup">
+                            <img src="http://127.0.0.1/csa/wp-content/uploads/2018/05/image2-2.jpeg" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item wow fadeInUp">
-                        <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
-                            <img src="img/gallery/gallery-3.jpg" alt="">
+                        <a href="http://127.0.0.1/csa/wp-content/uploads/2018/05/20170927_141626-1.jpg" class="gallery-popup">
+                            <img src="http://127.0.0.1/csa/wp-content/uploads/2018/05/20170927_141626-1.jpg" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item wow fadeInUp">
-                        <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
-                            <img src="img/gallery/gallery-4.jpg" alt="">
+                        <a href="http://127.0.0.1/csa/wp-content/uploads/2018/05/image1-1-1.jpeg" class="gallery-popup">
+                            <img src="http://127.0.0.1/csa/wp-content/uploads/2018/05/image1-1-1.jpeg" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item wow fadeInUp">
-                        <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
-                            <img src="img/gallery/gallery-5.jpg" alt="">
+                        <a href="http://127.0.0.1/csa/wp-content/uploads/2018/05/image2-1-1.jpeg" class="gallery-popup">
+                            <img src="http://127.0.0.1/csa/wp-content/uploads/2018/05/image2-1-1.jpeg" alt="">
                         </a>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="gallery-item wow fadeInUp">
-                        <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
-                            <img src="img/gallery/gallery-6.jpg" alt="">
+                        <a href="http://127.0.0.1/csa/wp-content/uploads/2018/05/image1-2.jpeg" class="gallery-popup">
+                            <img src="http://127.0.0.1/csa/wp-content/uploads/2018/05/image1-2.jpeg" alt="">
                         </a>
                     </div>
                 </div>
@@ -529,8 +372,8 @@
 
                 <div class="col-lg-4 col-md-4">
                     <div class="contact-about">
-                        <h3>Avilon</h3>
-                        <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                        <h3>CSA Construction</h3>
+                        <p>Repair-Rebuild-Reimagine</p>
                         <div class="social-links">
                             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -543,19 +386,15 @@
 
                 <div class="col-lg-3 col-md-4">
                     <div class="info">
-                        <div>
-                            <i class="ion-ios-location-outline"></i>
-                            <p>A108 Adam Street<br>New York, NY 535022</p>
-                        </div>
 
                         <div>
                             <i class="ion-ios-email-outline"></i>
-                            <p>info@example.com</p>
+                            <p>csaconstructionllc@gmail.com</p>
                         </div>
 
                         <div>
                             <i class="ion-ios-telephone-outline"></i>
-                            <p>+1 5589 55488 55s</p>
+                            <p>+1-816-217-9141</p>
                         </div>
 
                     </div>
