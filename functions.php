@@ -2,6 +2,7 @@
 
 function avilon_scripts() {
     wp_enqueue_style( 'avilon-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'additional-style', get_template_directory_uri() . '/css/additional.css' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/lib/bootstrap/css/bootstrap.min.css' );
     wp_enqueue_style( 'animate', get_template_directory_uri() . '/lib/animate/animate.min.css' );
     wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/lib/font-awesome/css/font-awesome.min.css' );

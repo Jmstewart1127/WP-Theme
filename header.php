@@ -18,8 +18,8 @@
 <header id="header">
     <div class="container">
 
-        <div id="logo" class="pull-left">
-            <h2 id="site-name"><a href="#intro" class="scrollto"><?php echo get_bloginfo( 'descriptiom', 'dispaly' ); ?></a></h2>
+        <div class="pull-left">
+            <h2 class="custom-header"><a href="#intro" class="scrollto"><?php echo get_bloginfo( 'descriptiom', 'dispaly' ); ?></a></h2>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
         </div>
@@ -27,7 +27,7 @@
         <nav id="nav-menu-container">
             <ul class="nav-menu">
                 <li class="menu-active"><a href="#intro">Home</a></li>
-                <li><a href="#features">Features</a></li>
+                <li><a href="#more-features">Services</a></li>
                 <li><a href="#careers">Careers</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact Us</a></li>

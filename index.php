@@ -4,7 +4,7 @@
     <div class="intro-text">
         <h2>CSA Construction</h2>
         <p>Repair Remodel Reimagine</p>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#more-features" class="btn-get-started scrollto">Get Started</a>
     </div>
 
     <div class="product-screens">
@@ -28,57 +28,66 @@
 <main id="main">
 
     <!--==========================
-      About Us Section
+    More Features Section
     ============================-->
-    <section id="about" class="section-bg">
-        <div class="container-fluid">
+    <section id="more-features" class="section-bg">
+        <div class="container">
+
             <div class="section-header">
-                <h3 class="section-title">About Us</h3>
+                <h3 class="section-title">Featured Services</h3>
                 <span class="section-divider"></span>
-                <p class="section-description">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
-                    sunt in culpa qui officia deserunt mollit anim id est laborum
-                </p>
+                <p class="section-description">Some of our popular services.</p>
             </div>
 
             <div class="row">
-                <div class="col-lg-6 about-img wow fadeInLeft">
-                    <img src="img/about-img.jpg" alt="">
+
+                <div class="col-lg-6">
+                    <div class="box wow fadeInLeft">
+                        <div class="icon"><i class="ion-ios-lightbulb-outline"></i></div>
+                        <h4 class="title"><a href="">Electrical</a></h4>
+                        <p class="description">From light fixtures to breakers, our journeyman electricians can handle any job imaginable.</p>
+                    </div>
                 </div>
 
-                <div class="col-lg-6 content wow fadeInRight">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
-                    <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-
-                    <ul>
-                        <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                    </ul>
-
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
-                    </p>
+                <div class="col-lg-6">
+                    <div class="box wow fadeInRight">
+                        <div class="icon"><i class="ion-waterdrop"></i></div>
+                        <h4 class="title"><a href="">Plumbing</a></h4>
+                        <p class="description">We can solve all of your plumbing problems, from the kitchen to the bathroom!</p>
+                    </div>
                 </div>
+
+                <div class="col-lg-6">
+                    <div class="box wow fadeInLeft">
+                        <div class="icon"><i class="ion-ios-home"></i></div>
+                        <h4 class="title"><a href="">Home Improvement</a></h4>
+                        <p class="description">CSA is your one stop shop for all home improvement needs. We can handle any job, from bathrooms to roofs.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="box wow fadeInRight">
+                        <div class="icon"><i class="ion-thermometer"></i></div>
+                        <h4 class="title"><a href="">HVAC</a></h4>
+                        <p class="description">Our HVAC professionals can install your heating or cooling solutions at an affordable price.</p>
+                    </div>
+                </div>
+
             </div>
-
         </div>
-    </section><!-- #about -->
+    </section><!-- #more-features -->
 
     <!--==========================
-      Product Featuress Section
+    Product Featuress Section
     ============================-->
     <section id="features">
         <div class="container">
 
             <div class="row">
 
-                <div class="col-lg-8 offset-lg-4">
+                <div class="col-lg-8 offset-lg-2">
                     <div class="section-header wow fadeIn" data-wow-duration="1s">
-                        <h3 class="section-title">Product Featuress</h3>
+                        <h3 class="section-title">Additional Services</h3>
                         <span class="section-divider"></span>
                     </div>
                 </div>
@@ -87,29 +96,29 @@
                     <img src="img/product-features.png" alt="" class="wow fadeInLeft">
                 </div>
 
-                <div class="col-lg-8 col-md-7 ">
+                <div class="col-lg-10 col-md-10 offset-1">
 
-                    <div class="row">
+                    <div class="row additional-services">
 
                         <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                            <div class="icon"><i class="ion-ios-grid-view-outline"></i></div>
+                            <h4 class="title"><a href="">Decks</a></h4>
+                            <p class="description">CSA delivers high quality decks at an affordable price.</p>
                         </div>
                         <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                            <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+                            <div class="icon"><i class="ion-hammer"></i></div>
+                            <h4 class="title"><a href="">Roofing</a></h4>
+                            <p class="description">We provide full replacements or repairs on any roof.</p>
                         </div>
                         <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s">
-                        <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+                        <div class="icon"><i class="ion-ios-refresh-outline"></i></div>
+                        <h4 class="title"><a href="">Remodeling</a></h4>
+                        <p class="description">From full flips to any room in the house, we've got your back.</p>
                     </div>
                     <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+                        <div class="icon"><i class="ion-ios-infinite-outline"></i></div>
+                        <h4 class="title"><a href="">Much Much More</a></h4>
+                        <p class="description">CSA Construction has tackled all jobs from home improvement to commercial level. We can provide solutions for any job.</p>
                     </div>
                 </div>
 
@@ -122,180 +131,60 @@
     </section><!-- #features -->
 
     <!--==========================
-      Product Advanced Featuress Section
+       Testimonials
     ============================-->
     <section id="advanced-features">
 
-        <div class="features-row section-bg">
+        <div class="testimonials-row section-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.jpg" alt="">
                         <div class="wow fadeInLeft">
-                            <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h2>Testimonials</h2>
+                            <span class="testimonials-divider"></span>
+                            <h3 class="customer-testimonial">"I have called on this company several times and have always been satisfied along with my clients. They responded in a very timely manner and could take on all of the different projects my clients needed done under one roof for an easy and smooth transaction for me and my clients. Means alot when everyone is so busy these days to not have a hassel of meeting different contractors with inconvient time frames. One phone call to a one stop professional company. Resonable pricing and licensed and insured too. Call them first. You won't be disappointed."</h3>
+                            <h3>-Pat C.</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="features-row">
+        <div class="testimonials-row">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <img class="advanced-feature-img-left" src="img/advanced-feature-2.jpg" alt="">
-                        <div class="wow fadeInRight">
-                            <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                            <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                            <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                            <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                            <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                            <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="features-row section-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-3.jpg" alt="">
+                        <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.jpg" alt="">
                         <div class="wow fadeInLeft">
-                            <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <i class="ion-ios-albums-outline"></i>
-                            <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3 class="customer-testimonial">"Did everything they could to make sure we were getting what we wanted and that the job was done correctly. Cleaned everything as they went from one task to another. Friendly and professional."</h3>
+                            <h3>-Jay A.</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="testimonials-row section-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.jpg" alt="">
+                        <div class="wow fadeInLeft">
+                            <h3 class="customer-testimonial">"The team is polite and professional. I couldn't be happier with my relationship with CSA Construction. Beautiful work."</h3>
+                            <h3>-Sharon C.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section><!-- #advanced-features -->
 
     <!--==========================
       Call To Action Section
     ============================-->
     <?php do_action( 'get_employment_form' ); ?>
-
-    <!--==========================
-      More Features Section
-    ============================-->
-    <section id="more-features" class="section-bg">
-        <div class="container">
-
-            <div class="section-header">
-                <h3 class="section-title">More Features</h3>
-                <span class="section-divider"></span>
-                <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-                        <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInLeft">
-                        <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="box wow fadeInRight">
-                        <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section><!-- #more-features -->
-
-    <!--==========================
-      Pricing Section
-    ============================-->
-    <section id="pricing" class="section-bg">
-        <div class="container">
-
-            <div class="section-header">
-                <h3 class="section-title">Pricing</h3>
-                <span class="section-divider"></span>
-                <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="box wow fadeInLeft">
-                        <h3>Free</h3>
-                        <h4><sup>$</sup>0<span> month</span></h4>
-                        <ul>
-                            <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-                        </ul>
-                        <a href="#" class="get-started-btn">Get Started</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="box featured wow fadeInUp">
-                        <h3>Business</h3>
-                        <h4><sup>$</sup>29<span> month</span></h4>
-                        <ul>
-                            <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-                        </ul>
-                        <a href="#" class="get-started-btn">Get Started</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="box wow fadeInRight">
-                        <h3>Developer</h3>
-                        <h4><sup>$</sup>49<span> month</span></h4>
-                        <ul>
-                            <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                            <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-                        </ul>
-                        <a href="#" class="get-started-btn">Get Started</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section><!-- #pricing -->
 
     <!--==========================
       Gallery Section
@@ -375,11 +264,9 @@
                         <h3>CSA Construction</h3>
                         <p>Repair-Rebuild-Reimagine</p>
                         <div class="social-links">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/CSAConstructionllc/?ref=br_rs" id="facebook-link" class="facebook">
+                                <i class="fa fa-facebook"></i>    facebook
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,44 @@
+.customer-testimonial {
+    font-weight: 400 !important;
+    color: black !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+}
+
+.testimonials-row {
+    padding: 40px 0 30px 0;
+}
+
+.testimonials-divider {
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: #1dc8cd;
+    background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+    margin-bottom: 20px;
+}
+
+.custom-header {
+    margin: 0 0 0 0;
+    padding: 0;
+    line-height: 1.1;
+    font-size: 1.5rem !important;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.additional-services {
+    padding-bottom: 70px;
+}
+
+.section-description {
+    margin-left: 0px !important;
+}
+
+#facebook-link {
+    width: 200px !important;
+    border-radius: 50px !important;
+    text-decoration: none;
+}
